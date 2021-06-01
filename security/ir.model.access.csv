@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+medab_medab_da,test_odoo.medab_da,model_medab_da,test_odoo.medab_access_admin,1,1,1,1
+medab_medab_da_detail,test_odoo.medab_da_detail,model_medab_da_detail,test_odoo.medab_access_admin,1,1,1,1

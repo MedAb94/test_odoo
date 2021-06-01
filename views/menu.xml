@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!--ROOT MENU-->
+        <menuitem name="Demande d'achat"
+                  id="base.menu_sc_root"
+                  sequence="35"
+        />
+
+        <menuitem name="Demande"
+                  id="menu_sc_Demande"
+                  parent="base.menu_sc_root"
+                  sequence="10"
+        />
+
+
+
+    </data>
+</odoo>
