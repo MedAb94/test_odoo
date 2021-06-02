@@ -32,6 +32,9 @@
                                     </tree>
                                 </field>
                             </page>
+                            <page string="Notes">
+                                <field name="note"/>
+                            </page>
                         </notebook>
                     </sheet>
                 </form>
@@ -47,10 +50,11 @@
                     <field name="demandeur"/>
                     <field name="date"/>
                     <field name="description"/>
+                    <field name="status"/>
+                    <button name="validate_da" string="Valider"/>
                 </tree>
             </field>
         </record>
-
 
         <record id="medab_act_window" model="ir.actions.act_window">
             <field name="name">Demande d'achat</field>
